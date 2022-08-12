@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    
+  <div id="mySidebar" class="w3-sidebar w3-animate-left w3-collapse w3-bar-block w3-card w3-light-grey w3-border-right" style="display:none;width: 25%;">
+  <button class="w3-button w3-bar-item w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+    <h3 class="w3-bar-item">MENU</h3>
+  <a href="#" class="w3-button w3-bar-item">Home</a>
+  <a href="#" class="w3-button w3-bar-item">Contact</a>
+  <a href="#" class="w3-button w3-bar-item">About</a>
+  </div>
+<div id="main">
+  <div class="w3-teal">
+    <button onclick="w3_open()" id="navMe" class="w3-button w3-xlarge w3-teal" id="openNav">&#9776;</button>
+    <div class="w3-container">
+      <h1>My page</h1>
+    </div>
+  </div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwSq4UseyC_QBUTR2cY55NIUzI6zso8xHf5A&usqp=CAU" alt="car" style="width: 100%;">
+  <div class="w3-container">
+    <p>This sidebar is hidden by default, (style="display:none")</p>
+    <p>You must click on the "hamburger" icon (top left) to open it.</p>
+    <p>The sidebar will hide a part of the page content.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script> 
+</body>
+</html>
